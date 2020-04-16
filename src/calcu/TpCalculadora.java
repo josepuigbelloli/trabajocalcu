@@ -3,13 +3,35 @@ package calcu;
 import java.util.Scanner;
 
 public class TpCalculadora {
-
+    
+	private Integer a;
+	private Integer b;
+	private Integer resultado;
+	
+	public MiCalculadora(Integer a, Integer b) {
+		this.a = a;
+		this.b = b;
+		this.resultado=0;
+	}
+	//Metodo para sumar:
+		public Integer sumar(){
+			return this.resultado = a+b;
+		}
+	
+	
+	//Metodo para restar:
+	public Integer restar(){
+		return this.resultado = a-b;
+		
+	}
+	
+	
 	public static void main (String[]args) {
 		
 		Integer a;
 		Integer b;
 		Integer opcion;
-		Integer resultado;
+		Integer resultado=0;
 		
 		Scanner teclado = new Scanner(System.in);
 		do {
@@ -26,16 +48,16 @@ public class TpCalculadora {
 			b=teclado.nextInt();
 		
 		switch (opcion){
-			case (1):
+			case (4):
 			resultado = a + b;
 			break;
-			case (2):
+			case (3):
 			resultado = a - b;
 			break;
-			case (3):
+			case (2):
 			resultado = a * b;
 			break;
-			case (4):
+			case (1):
 			resultado = a / b;
 			break;
 		}
