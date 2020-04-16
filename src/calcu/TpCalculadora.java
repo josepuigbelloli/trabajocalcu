@@ -24,6 +24,17 @@ public class TpCalculadora {
 		return this.resultado = a-b;
 		
 	}
+	//metodo para multiplicar
+	public Integer Multiplicar (){
+		return this.resultado = a * b;
+	}
+
+	//metodo para dividir :
+		public Integer Dividir (){
+		return this.resultado = a / b;
+	}
+
+
 	
 	
 	public static void main (String[]args) {
