@@ -18,7 +18,7 @@ public class Respuestas {
 	/* 9)
 	Al realizar el pull request desde el repositorio remoto notamos que necesita 
 	una confirmación del creador del repositorio para que acepte el merge entre 
-	las ramas de cada uno con la rama “master”. También, se pueden arreglar conflictos
+	las ramas de cada uno con la rama “master”. Se pueden arreglar conflictos
 	manualmente que surgen al momento de comparar los archivos. La estrategia más conveniente 
 	para evitar estos conflictos, es seguir una estructura clara entre todos los colaboradores
 	y no modificarla para que se realice un merge correctamente.
